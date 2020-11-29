@@ -1,0 +1,117 @@
+:root {
+  /* colors */
+  --color-cyan: #5fb4a2;
+  --color-red: #f43030;
+  --color-dark-blue: #203a4c;
+  --color-grayish-dark-blue: #33323d;
+  --color-very-light-gray: #fafafa;
+  --color-light-gray: #eaeaeb;
+  --color-white: #ffffff;
+
+  --color-border-gray: #dcdcde;
+  --color-form-input-bg: #e5e5e6;
+  --color-form-input-place-holder: #9d9da3;
+
+  /* font family */
+  --font-family-sans: "Public Sans", sans-serif;
+  --font-family-serif: "Ibarra Real Nova", serif;
+
+  /* font weight */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-semiBold: 600;
+  --weight-bold: 700;
+
+  --space-max-width: 1110px;
+
+  /* animation */
+  --transition: 300ms ease-in-out;
+}
+
+body {
+  padding-top: 50px;
+  background-color: #fafafa;
+}
+
+.container-fluid {
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 0.75rem;
+}
+
+.main__nav li {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  cursor: pointer;
+  color: var(--color-grayish-dark-blue);
+}
+
+.main__nav li:hover {
+  color: var(--color-cyan);
+  transition: var(--transition) color;
+}
+
+.active {
+  color: var(--color-cyan);
+}
+
+.mobile_nav {
+  position: absolute;
+  right: 0;
+  top: 5rem;
+  background-color: var(--color-grayish-dark-blue);
+  margin-right: 1.5rem;
+  padding: 2rem 6rem;
+  color: white;
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.mobile_nav li {
+  cursor: pointer;
+}
+
+.mobile_nav li:hover {
+  color: var(--color-cyan);
+  transition: var(--transition) color;
+}
+
+@media (min-width: 1280px) {
+  .container-fluid {
+    max-width: 1110px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container-fluid {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 1.5rem;
+  }
+  header {
+    margin-top: -1rem;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .main__nav {
+    display: none;
+  }
+}
