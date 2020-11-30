@@ -1,0 +1,74 @@
+.hero__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.hero__content {
+  position: absolute;
+  padding-top: 4rem;
+  bottom: 0;
+  background-color: #fafafa;
+  width: 74%;
+  max-width: 28rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+}
+
+#aboutme:hover .btn-aboutme__icon {
+  background-color: #5fb4a2;
+  transition: 300ms ease-in-out background-color;
+}
+
+#aboutme:hover .btn-aboutme__content {
+  background-color: #5fb4a2;
+  transition: 300ms ease-in-out background-color;
+}
+
+#aboutme:hover .icon {
+  stroke: #fff;
+}
+
+.btn-aboutme__icon {
+  background-color: #1c3444;
+}
+
+.btn-aboutme__content {
+  line-height: 15px;
+  background: #203a4c;
+  color: white;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 1024px) {
+  .hero__image {
+    background-image: url("http://localhost:3000/images/desktop/hero.jpg");
+  }
+  .heading {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 1023px) {
+  .hero__image {
+    background-image: url("http://localhost:3000/images/tablet/hero.jpg");
+  }
+}
+
+@media (max-width: 575px) {
+  .hero__image {
+    background-image: url("http://localhost:3000/images/mobile/hero.jpg");
+    height: 271px;
+  }
+  .hero__content {
+    position: relative;
+    margin: 2.5rem 0 0 0;
+    width: 100%;
+    padding: 0;
+  }
+  .heading {
+    line-height: 2.6rem;
+  }
+}

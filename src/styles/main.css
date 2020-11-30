@@ -33,6 +33,65 @@ body {
   background-color: #fafafa;
 }
 
+.heading {
+  font-family: var(--font-family-serif);
+  font-weight: 700;
+  color: var(--color-grayish-dark-blue);
+}
+
+.title {
+  font-family: var(--font-family-serif);
+  font-weight: 700;
+  color: var(--color-grayish-dark-blue);
+  font-size: 2.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0;
+  font-weight: var(--weight-regular);
+  font-family: var(--font-family-sans);
+  color: var(--color-grayish-dark-blue);
+  opacity: 0.8;
+}
+
+.btn {
+  font-family: var(--font-family-sans);
+  padding: 1rem 2.5rem;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  border: 1px solid var(--color-grayish-dark-blue);
+  font-weight: var(--weight-semiBold);
+}
+
+.btn:hover {
+  background-color: var(--color-grayish-dark-blue);
+  color: white;
+  transition: var(--transition) background-color;
+}
+
+.font-serif {
+  font-family: var(--font-family-serif);
+}
+
+.font-sans {
+  font-family: var(--font-family-sans);
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #5fb4a2;
+}
+
+.font-lg {
+  font-size: 3.2rem;
+}
+
+.fotn-md {
+  font-size: 2rem;
+}
+
 .container-fluid {
   margin: 0 auto;
 }
@@ -78,6 +137,7 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
+  z-index: 999;
 }
 
 .mobile_nav li {
@@ -103,7 +163,7 @@ header {
 
 @media (max-width: 576px) {
   .container-fluid {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
   header {
     margin-top: -1rem;

@@ -1,10 +1,16 @@
+import React from "react";
+
+import { Hero, About } from "../components";
+
 const Home = () => {
   return (
-    <section>
-      <div className="container-fluid">
-        <h1>Home</h1>
-      </div>
-    </section>
+    <React.Fragment>
+      <Hero />
+      <About />
+      <br />
+      <br />
+      <br />
+    </React.Fragment>
   );
 };
 

@@ -1,0 +1,12 @@
+#about-me {
+  max-width: 42ch;
+  min-width: 42ch;
+  border-top: 1px solid #dcdcde;
+  border-bottom: 1px solid #dcdcde;
+  padding-top: 2rem;
+}
+
+.profile-image {
+  max-width: 33.8rem;
+  object-fit: cover;
+}
