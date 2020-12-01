@@ -1,7 +1,7 @@
 import "../styles/hero.css";
 const Hero = () => {
   return (
-    <section className="mt-6">
+    <section className="mt-14">
       <div className="container-fluid relative">
         <div className="hero__image"></div>
         <div className="hero__content">
@@ -9,7 +9,7 @@ const Hero = () => {
             Hey, I’m <span className="underline">Mohd Imran</span> and I love
             building beautiful websites
           </h1>
-          <a href="#aboutme" id="aboutme" className="flex mt-12 w-48">
+          <a href="#about-me" id="aboutme" className="flex mt-12 w-48">
             <div className="btn-aboutme__icon p-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14">
                 <g

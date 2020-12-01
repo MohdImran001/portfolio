@@ -1,12 +1,13 @@
 import React from "react";
 
-import { Hero, About } from "../components";
+import { Hero, About, Tagline } from "../components";
 
 const Home = () => {
   return (
     <React.Fragment>
       <Hero />
       <About />
+      <Tagline />
       <br />
       <br />
       <br />

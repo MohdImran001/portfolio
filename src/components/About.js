@@ -4,13 +4,13 @@ import "../styles/about.css";
 
 const About = () => {
   return (
-    <section className="mt-48">
-      <div className="container-fluid flex space-x-32">
-        <div className="profile-image">
+    <section className="lg:mt-32 sm:mt-20 md:mt-24 mt-32">
+      <div className="container-fluid" id="about-me">
+        <div className="about-me__profile-image">
           <img src="./images/desktop/profile.jpg" alt="my-profile-pic" />
         </div>
-        <article id="about-me">
-          <h1 className="title">About Me</h1>
+        <article class="about-me__content">
+          <h1 className="title underline">About Me</h1>
           <p className="text mt-6 mb-8">
             I’m an aspiring front-end developer looking for a new role in an
             exciting company. I focus on writing accessible HTML, using modern

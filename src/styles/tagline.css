@@ -1,0 +1,36 @@
+.tagline__title {
+  max-width: 14ch;
+  min-width: 14ch;
+  line-height: 40px;
+}
+
+.tagline__line {
+  background-color: #33323d;
+  opacity: 0.15;
+  width: 100%;
+  height: 1px;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 756px) {
+  .tagline {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tagline__line {
+    display: none;
+  }
+
+  .tagline__title {
+    min-width: 100%;
+    max-width: 100%;
+    line-height: 50px;
+  }
+
+  .tagline > .btn {
+    max-width: 14rem;
+    margin-top: 3rem;
+  }
+}
