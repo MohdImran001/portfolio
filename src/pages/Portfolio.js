@@ -1,8 +1,10 @@
+import { Left } from "../components";
+
 const Portfolio = () => {
   return (
-    <section>
-      <div className="container-fluid">
-        <h1>Portfolio</h1>
+    <section className="pt-20">
+      <div className="container-fluid ">
+        <Left />
       </div>
     </section>
   );

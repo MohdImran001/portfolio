@@ -64,8 +64,8 @@ body {
   border: 1px solid var(--color-grayish-dark-blue);
   font-weight: var(--weight-semiBold);
   text-transform: uppercase;
-  /* display: block;
-  max-width: 14rem; */
+  /* display: block; */
+  max-width: 14rem;
   min-width: 12rem;
   text-align: center;
   max-height: 50px;
