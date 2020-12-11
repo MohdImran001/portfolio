@@ -4,7 +4,7 @@ const Left = () => {
   return (
     <div className="project-left">
       <div className="project-left__image">
-        <img src="./images/desktop/manage.jpg" />
+        <img src="./images/desktop/manage.jpg" alt="project-image" />
       </div>
       <div className="project-left__content">
         <h1 className="title">Manage</h1>
@@ -14,7 +14,7 @@ const Left = () => {
           for the areas that required interactivity, such as the testimonial
           slider.
         </p>
-        <a href="#" className="btn mt-6">
+        <a href="#" className="btn mt-8">
           view project
         </a>
       </div>
