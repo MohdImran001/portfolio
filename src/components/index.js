@@ -4,5 +4,6 @@ import About from "./About";
 import Tagline from "./Tagline";
 import Footer from "./Footer";
 import Left from "./Left";
+import Right from "./Right";
 
-export { Nav, Hero, About, Tagline, Footer, Left };
+export { Nav, Hero, About, Tagline, Footer, Left, Right };

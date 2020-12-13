@@ -1,12 +1,12 @@
 import "../styles/portfolio.css";
 
-const Left = () => {
+const Right = () => {
   return (
-    <div className="project-left mt-5 sm:mb-10 md:mb-20">
+    <div className="project-right mt-5 mb-20">
       <div className="project-left__image">
         <img src="./images/desktop/manage.jpg" alt="project" />
       </div>
-      <div className="project-left__content">
+      <div className="project-right__content">
         <h1 className="title">Manage</h1>
         <p className="text mt-6">
           This project required me to build a fully responsive landing page to
@@ -22,4 +22,4 @@ const Left = () => {
   );
 };
 
-export default Left;
+export default Right;
