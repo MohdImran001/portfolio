@@ -2,11 +2,11 @@ import "../styles/portfolio.css";
 
 const Left = () => {
   return (
-    <div className="project-left mt-5 sm:mb-10 md:mb-20">
-      <div className="project-left__image">
+    <div className="project project-left mt-20 lg:mt-14 sm:mb-10 md:mb-20">
+      <div className="project-image">
         <img src="./images/desktop/manage.jpg" alt="project" />
       </div>
-      <div className="project-left__content">
+      <div className="project-content">
         <h1 className="title">Manage</h1>
         <p className="text mt-6">
           This project required me to build a fully responsive landing page to

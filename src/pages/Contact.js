@@ -1,8 +1,11 @@
+import { GetInTouch, ContactForm } from "../components";
+
 const Contact = () => {
   return (
     <section>
       <div className="container-fluid">
-        <h1>Contact</h1>
+        <GetInTouch />
+        <ContactForm />
       </div>
     </section>
   );

@@ -1,0 +1,63 @@
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dcdcde;
+  border-bottom: 1px solid #dcdcde;
+  padding: 3rem 0;
+}
+
+.get-in-touch p {
+  max-width: 635px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.contact-form__form {
+  width: 635px;
+  max-width: 635px;
+}
+
+.contact-form__form label {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+  color: #33323d;
+}
+
+.contact-form__form input,
+textarea {
+  background-color: #e5e5e6;
+  padding: 0.9rem 1.6rem;
+  width: 100%;
+  color: #33323d;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.contact-form__form textarea {
+  min-height: 5rem;
+}
+
+@media (max-width: 1024px) {
+  .get-in-touch,
+  .contact-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-in-touch p {
+    margin-top: 2rem;
+  }
+}
